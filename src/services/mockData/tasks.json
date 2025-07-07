@@ -1,0 +1,122 @@
+[
+  {
+    "Id": 1,
+    "title": "Complete project proposal",
+    "description": "Finish writing the Q4 marketing project proposal and prepare presentation slides for the stakeholder meeting.",
+    "categoryId": 1,
+    "priority": "high",
+    "dueDate": "2024-12-15",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2024-12-10T09:00:00Z",
+    "updatedAt": "2024-12-10T09:00:00Z"
+  },
+  {
+    "Id": 2,
+    "title": "Review quarterly budget",
+    "description": "Analyze spending patterns and prepare budget adjustments for the upcoming quarter.",
+    "categoryId": 2,
+    "priority": "medium",
+    "dueDate": "2024-12-18",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2024-12-09T14:30:00Z",
+    "updatedAt": "2024-12-09T14:30:00Z"
+  },
+  {
+    "Id": 3,
+    "title": "Team meeting preparation",
+    "description": "Prepare agenda and materials for the weekly team standup meeting.",
+    "categoryId": 1,
+    "priority": "medium",
+    "dueDate": "2024-12-12",
+    "completed": true,
+    "completedAt": "2024-12-11T16:45:00Z",
+    "createdAt": "2024-12-08T11:15:00Z",
+    "updatedAt": "2024-12-11T16:45:00Z"
+  },
+  {
+    "Id": 4,
+    "title": "Schedule dentist appointment",
+    "description": "Call dental office to schedule routine cleaning and checkup.",
+    "categoryId": 5,
+    "priority": "low",
+    "dueDate": "2024-12-20",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2024-12-10T12:00:00Z",
+    "updatedAt": "2024-12-10T12:00:00Z"
+  },
+  {
+    "Id": 5,
+    "title": "Grocery shopping",
+    "description": "Buy ingredients for weekend meal prep and household essentials.",
+    "categoryId": 4,
+    "priority": "medium",
+    "dueDate": "2024-12-13",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2024-12-10T08:30:00Z",
+    "updatedAt": "2024-12-10T08:30:00Z"
+  },
+  {
+    "Id": 6,
+    "title": "Learn React advanced patterns",
+    "description": "Complete online course chapter on React hooks and context patterns.",
+    "categoryId": 6,
+    "priority": "low",
+    "dueDate": "2024-12-16",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2024-12-09T19:00:00Z",
+    "updatedAt": "2024-12-09T19:00:00Z"
+  },
+  {
+    "Id": 7,
+    "title": "Update investment portfolio",
+    "description": "Review and rebalance investment allocations based on market performance.",
+    "categoryId": 7,
+    "priority": "medium",
+    "dueDate": "2024-12-22",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2024-12-10T13:20:00Z",
+    "updatedAt": "2024-12-10T13:20:00Z"
+  },
+  {
+    "Id": 8,
+    "title": "Plan weekend trip",
+    "description": "Research and book accommodation for the upcoming weekend getaway.",
+    "categoryId": 8,
+    "priority": "high",
+    "dueDate": "2024-12-14",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2024-12-10T10:45:00Z",
+    "updatedAt": "2024-12-10T10:45:00Z"
+  },
+  {
+    "Id": 9,
+    "title": "Clean home office",
+    "description": "Organize desk, file documents, and deep clean the workspace.",
+    "categoryId": 3,
+    "priority": "low",
+    "dueDate": null,
+    "completed": true,
+    "completedAt": "2024-12-10T15:30:00Z",
+    "createdAt": "2024-12-07T09:00:00Z",
+    "updatedAt": "2024-12-10T15:30:00Z"
+  },
+  {
+    "Id": 10,
+    "title": "Client presentation rehearsal",
+    "description": "Practice presentation for the major client pitch meeting next week.",
+    "categoryId": 1,
+    "priority": "high",
+    "dueDate": "2024-12-13",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2024-12-10T16:00:00Z",
+    "updatedAt": "2024-12-10T16:00:00Z"
+  }
+]

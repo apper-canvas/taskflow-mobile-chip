@@ -1,0 +1,58 @@
+[
+  {
+    "Id": 1,
+    "name": "Work",
+    "color": "#3B82F6",
+    "icon": "Briefcase",
+    "taskCount": 4
+  },
+  {
+    "Id": 2,
+    "name": "Finance",
+    "color": "#10B981",
+    "icon": "DollarSign",
+    "taskCount": 2
+  },
+  {
+    "Id": 3,
+    "name": "Personal",
+    "color": "#8B5CF6",
+    "icon": "User",
+    "taskCount": 1
+  },
+  {
+    "Id": 4,
+    "name": "Shopping",
+    "color": "#F59E0B",
+    "icon": "ShoppingCart",
+    "taskCount": 1
+  },
+  {
+    "Id": 5,
+    "name": "Health",
+    "color": "#EF4444",
+    "icon": "Heart",
+    "taskCount": 1
+  },
+  {
+    "Id": 6,
+    "name": "Learning",
+    "color": "#6366F1",
+    "icon": "BookOpen",
+    "taskCount": 1
+  },
+  {
+    "Id": 7,
+    "name": "Finance",
+    "color": "#059669",
+    "icon": "TrendingUp",
+    "taskCount": 1
+  },
+  {
+    "Id": 8,
+    "name": "Travel",
+    "color": "#DC2626",
+    "icon": "MapPin",
+    "taskCount": 1
+  }
+]

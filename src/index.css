@@ -1,0 +1,230 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'react-toastify/dist/ReactToastify.css';
+
+/* Custom scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Custom toast styling */
+.Toastify__toast-container {
+  @apply text-sm font-medium;
+}
+
+.Toastify__toast {
+  @apply rounded-lg shadow-lg;
+  min-height: 48px;
+  padding: 12px 16px;
+}
+
+.Toastify__toast--success {
+  @apply bg-white border-l-4 border-success text-gray-800;
+}
+
+.Toastify__toast--error {
+  @apply bg-white border-l-4 border-error text-gray-800;
+}
+
+.Toastify__toast--info {
+  @apply bg-white border-l-4 border-info text-gray-800;
+}
+
+.Toastify__toast--warning {
+  @apply bg-white border-l-4 border-warning text-gray-800;
+}
+
+.Toastify__close-button {
+  @apply text-gray-400 hover:text-gray-600;
+}
+
+/* Custom checkbox styling */
+.task-checkbox {
+  @apply appearance-none w-5 h-5 border-2 border-gray-300 rounded cursor-pointer transition-all duration-200;
+  background-image: none;
+}
+
+.task-checkbox:checked {
+  @apply bg-primary border-primary;
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='m13.854 3.646-7.5 7.5a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6 10.293l7.146-7.147a.5.5 0 0 1 .708.708z'/%3e%3c/svg%3e");
+}
+
+.task-checkbox:checked:hover {
+  @apply bg-secondary border-secondary;
+}
+
+.task-checkbox:hover {
+  @apply border-gray-400;
+}
+
+.task-checkbox:focus {
+  @apply outline-none ring-2 ring-primary ring-opacity-50;
+}
+
+/* Priority indicator styles */
+.priority-high {
+  @apply border-l-4 border-error;
+}
+
+.priority-medium {
+  @apply border-l-4 border-warning;
+}
+
+.priority-low {
+  @apply border-l-4 border-success;
+}
+
+/* Drag and drop styles */
+.dragging {
+  @apply opacity-50 rotate-2 scale-105;
+}
+
+.drag-over {
+  @apply bg-blue-50 border-blue-200;
+}
+
+/* Animation for task completion */
+@keyframes task-complete {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+}
+
+.task-completing {
+  animation: task-complete 0.3s ease-out;
+}
+
+/* Floating labels */
+.floating-label-container {
+  @apply relative;
+}
+
+.floating-label {
+  @apply absolute left-3 top-3 text-gray-500 transition-all duration-200 pointer-events-none;
+  font-size: 0.875rem;
+}
+
+.floating-label.active {
+  @apply text-xs top-1 text-primary;
+}
+
+/* Skeleton loading */
+.skeleton {
+  @apply animate-pulse bg-gray-200 rounded;
+}
+
+.skeleton-text {
+  @apply skeleton h-4 w-full mb-2;
+}
+
+.skeleton-title {
+  @apply skeleton h-6 w-3/4 mb-3;
+}
+
+.skeleton-button {
+  @apply skeleton h-10 w-24 rounded-lg;
+}
+
+/* Custom focus styles */
+.focus-ring {
+  @apply focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50;
+}
+
+/* Smooth transitions */
+.transition-base {
+  @apply transition-all duration-200 ease-out;
+}
+
+.transition-slow {
+  @apply transition-all duration-300 ease-out;
+}
+
+/* Card hover effects */
+.card-hover {
+  @apply transform transition-transform duration-200 hover:scale-[1.02] hover:shadow-lg;
+}
+
+/* Category pill styles */
+.category-pill {
+  @apply px-3 py-1 rounded-full text-xs font-medium;
+}
+
+.category-pill.work {
+  @apply bg-blue-100 text-blue-800;
+}
+
+.category-pill.personal {
+  @apply bg-green-100 text-green-800;
+}
+
+.category-pill.urgent {
+  @apply bg-red-100 text-red-800;
+}
+
+.category-pill.shopping {
+  @apply bg-yellow-100 text-yellow-800;
+}
+
+.category-pill.health {
+  @apply bg-purple-100 text-purple-800;
+}
+
+.category-pill.learning {
+  @apply bg-indigo-100 text-indigo-800;
+}
+
+.category-pill.finance {
+  @apply bg-emerald-100 text-emerald-800;
+}
+
+.category-pill.travel {
+  @apply bg-orange-100 text-orange-800;
+}
+
+/* Active category filter */
+.category-filter-active {
+  @apply bg-primary text-white shadow-lg;
+}
+
+/* Empty state styling */
+.empty-state {
+  @apply flex flex-col items-center justify-center py-12 text-center;
+}
+
+.empty-state-icon {
+  @apply w-16 h-16 text-gray-300 mb-4;
+}
+
+.empty-state-title {
+  @apply text-xl font-semibold text-gray-700 mb-2;
+}
+
+.empty-state-description {
+  @apply text-gray-500 mb-6 max-w-md;
+}
