@@ -12,6 +12,11 @@ const TasksPage = () => {
   const totalTasks = tasks.filter(task => !task.completed).length
   const completedTasks = tasks.filter(task => task.completed).length
 
+  const handleClick = () => {
+    const temp = {};
+    console.log(temp.length());
+  }
+
   return (
     <div className="space-y-6">
       {/* Header */}
@@ -29,6 +34,9 @@ const TasksPage = () => {
             <p className="text-gray-600">
               Manage and organize all your tasks 1
             </p>
+            <button onClick={handleClick}>
+              Click me
+            </button>
           </div>
           
           <div className="flex items-center space-x-6">
