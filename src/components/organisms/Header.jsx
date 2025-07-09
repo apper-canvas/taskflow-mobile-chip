@@ -35,13 +35,12 @@ const Header = ({ onSearch, onMenuToggle, searchQuery = '' }) => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              <ApperIcon name="CheckSquare" className="w-5 h-5 text-white" />
+<ApperIcon name="CheckSquare" className="w-5 h-5 text-white" />
             </motion.div>
             <h1 className="text-xl font-bold text-gray-900 hidden sm:block">
-              TaskFlow
+              TaskFlow Pro
             </h1>
           </div>
-
           {/* Search Bar */}
           <div className="flex-1 max-w-md mx-4">
             <SearchBar
