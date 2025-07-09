@@ -38,7 +38,7 @@ const Header = ({ onSearch, onMenuToggle, searchQuery = '' }) => {
 <ApperIcon name="CheckSquare" className="w-5 h-5 text-white" />
             </motion.div>
             <h1 className="text-xl font-bold text-gray-900 hidden sm:block">
-              TaskFlow Pro
+              TaskFlow Pro Plus
             </h1>
           </div>
           {/* Search Bar */}
