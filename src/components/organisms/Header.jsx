@@ -34,13 +34,12 @@ const Header = ({ onSearch, onMenuToggle, searchQuery = '' }) => {
               className="w-8 h-8 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center"
               whileHover={{ scale: 1.05 }}
             >
-              <ApperIcon name="CheckSquare" className="w-5 h-5 text-white" />
+<ApperIcon name="CheckSquare" className="w-5 h-5 text-white" />
             </motion.div>
             <h1 className="text-xl font-bold text-gray-900 hidden sm:block">
-              TaskFlow Ultra Pro
+              taker pro
             </h1>
           </div>
-
           {/* Search Bar */}
           <div className="flex-1 max-w-md mx-4">
             <SearchBar
