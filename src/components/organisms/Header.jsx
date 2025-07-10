@@ -28,7 +28,6 @@ const Header = ({ onSearch, onMenuToggle, searchQuery = '' }) => {
             </Button>
           </div>
 
-          {/* Logo and Title */}
 {/* Logo and Title */}
           <div className="flex items-center space-x-3">
             <motion.div
@@ -40,7 +39,9 @@ const Header = ({ onSearch, onMenuToggle, searchQuery = '' }) => {
             <h1 className="text-xl font-bold text-gray-900 hidden sm:block">
               TaskFlow Ultra Pro
             </h1>
-          {/* Search Bar */
+          </div>
+
+          {/* Search Bar */}
           <div className="flex-1 max-w-md mx-4">
             <SearchBar
               onSearch={onSearch}
