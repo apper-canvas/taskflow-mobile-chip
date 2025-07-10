@@ -1,11 +1,11 @@
-import { useState } from 'react'
-import { motion } from 'framer-motion'
-import ApperIcon from '@/components/ApperIcon'
-import Button from '@/components/atoms/Button'
-import SearchBar from '@/components/molecules/SearchBar'
+import React, { useState } from "react";
+import { motion } from "framer-motion";
+import ApperIcon from "@/components/ApperIcon";
+import Button from "@/components/atoms/Button";
+import SearchBar from "@/components/molecules/SearchBar";
 
 const Header = ({ onSearch, onMenuToggle, searchQuery = '' }) => {
-  const [isSearchFocused, setIsSearchFocused] = useState(false)
+  const [isSearchFocused, setIsSearchFocused] = useState(false);
 
   return (
     <motion.header
@@ -38,10 +38,10 @@ const Header = ({ onSearch, onMenuToggle, searchQuery = '' }) => {
 <ApperIcon name="CheckSquare" className="w-5 h-5 text-white" />
             </motion.div>
             <h1 className="text-xl font-bold text-gray-900 hidden sm:block">
-              TaskFlow Ultra Pro Max
+              TaskFlow Ultra Pro
             </h1>
           </div>
-          {/* Search Bar */}
+          {/* Search Bar */
           <div className="flex-1 max-w-md mx-4">
             <SearchBar
               onSearch={onSearch}
